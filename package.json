@@ -1,0 +1,27 @@
+{
+  "name": "todo-vue3api",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "^7.0.1",
+    "@types/node": "^22.5.1",
+    "ant-design-vue": "^4.2.3",
+    "pinia": "^2.2.2",
+    "vue": "^3.4.37",
+    "vue-router": "^4.0.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.2",
+    "prettier": "3.3.3",
+    "typescript": "^5.5.3",
+    "unplugin-vue-components": "^0.27.4",
+    "vite": "^5.4.1",
+    "vue-tsc": "^2.0.29"
+  }
+}
